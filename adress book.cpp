@@ -21,7 +21,34 @@ void destory_person (person *head);   //清空联系人
 
 int main ()
 {
-    showmenu();
+    int choose;
+    while (true)
+    {
+        showmenu();
+        cin >> choose;
+        switch (choose)
+        {
+        case 1:
+            break;
+        case 2:
+            break;       
+        case 3:
+            break;
+        case 4:
+            break;
+        case 5:
+            break;
+        case 6:
+            break;
+        case 0:return 0;
+            break;
+        default:return 0;
+            break;
+        }
+    }
+    
+    
+
 }
 void showmenu ()
 {
